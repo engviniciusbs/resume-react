@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  margin-bottom: 2.5rem;
+}
+
+.navbar-item, .navbar-link {
+  line-height: 2.25 !important;
+}
+
+#root > section > div > div > div:nth-child(1) > div > div.card-content > div:nth-child(2) > span, #root > section > div > div > div:nth-child(1) > div > div.card-content > div:nth-child(3) > span{
+  justify-content: left;
+}
+
+#root > section > div > div > div:nth-child(1) > div > div.card-content > div:nth-child(2) > span svg, #root > section > div > div > div:nth-child(1) > div > div.card-content > div:nth-child(3) > span svg{
+  margin-right: 0.45em;
+}
+
+#root > section > div > div > div.column.is-9 > div:nth-child(2) > div.card-content > div:nth-child(1) > div > div.column.is-9 > h1.is-6.title > span, #root > section > div > div > div.column.is-9 > div:nth-child(2) > div.card-content > div:nth-child(3) > div > div.column.is-9 > h1.is-6.title > span{
+  margin-left: 0.45em;
+}
+
+#root > section > div > div > div.column.is-9 > div:nth-child(2) > div.card-content > div:nth-child(1) > div > div.column.is-9 > h1.is-6.title > span > a, #root > section > div > div > div.column.is-9 > div:nth-child(2) > div.card-content > div:nth-child(3) > div > div.column.is-9 > h1.is-6.title > span > a{
+  color: #fff;
+}
+
+#root > section > div > div > div.column.is-9 > div:nth-child(4) > div.card-content > div > span{
+  margin-right: 0.35rem;
+}
